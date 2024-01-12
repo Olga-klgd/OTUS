@@ -9,13 +9,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install Package
+      - name: Install Packages
         run: |
           npm install
 
-      - name: Lint Check
+      - name: Lint check
         run: |
-          npm run Lint
+          npm run lint
 
       - name: Run Tests
         run: |
