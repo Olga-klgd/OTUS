@@ -1,5 +1,5 @@
-const factorial = require('./factorial');
+const factorial = require("./factorial");
 
-test('calculate factorial of 5', () => {
-    expect(factorial(5)).toBe(120);
+test("calculate factorial of 5", () => {
+  expect(factorial(5)).toBe(120);
 });
